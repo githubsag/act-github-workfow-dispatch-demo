@@ -17,6 +17,7 @@ on:
         type: boolean
       environment:
         description: 'Environment to run tests against'
+        default: staging
         type: environment
         required: true
 jobs:
